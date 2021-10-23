@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="user" type="id" />
+    <item name="pass" type="id" />
+    <item name="btn_login" type="id" />
+    <item name="label1" type="id" />
+    <item name="hasilNama" type="id" />
+    <item name="label2" type="id" />
+    <item name="hasilUmur" type="id" />
+    <item name="label3" type="id" />
+    <item name="hasilAlamat" type="id" />
+    <item name="c1" type="id" />
+    <item name="hasilNim" type="id" />
+    <item name="progress" type="id" />
+</resources>

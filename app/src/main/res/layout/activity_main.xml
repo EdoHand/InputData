@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/androidbg"
+    tools:context=".MainActivity">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Pass"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Authentifikasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Authentifikasi"
+        android:textSize="30sp"
+        android:layout_marginTop="80dp"
+        android:textColor="#FFFF00"
+        android:gravity="center"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="77dp" />
+
+    <TextView
+        android:id="@+id/Create"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Login account"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/Authentifikasi"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:hint="Email Adress"
+        android:layout_below="@id/Create"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="186dp" />
+
+    <EditText
+        android:id="@+id/Pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        tools:ignore="MissingConstraints"
+        android:layout_below="@id/Email"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="186dp" />
+
+
+    <Button
+        android:id="@+id/btLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Pass"
+        android:layout_marginTop="72dp"
+        android:layout_margin="100dp"
+        android:layout_marginBottom="100dp"
+        android:text="Login"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="419dp" />
+
+    <TextView
+        android:id="@+id/tvAccount"
+        android:gravity="center"
+        android:textColor="#FFFF00"
+        android:text=" Have account ? Register now "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btLogin"
+        android:layout_marginTop="-100dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/forgot"
+        android:layout_below="@id/tvAccount"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text=" Forgot password? "
+        android:textColor="#FFFF00"
+        tools:ignore="MissingConstraints"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "206649742826",
+    "project_id": "database-cee5f",
+    "storage_bucket": "database-cee5f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206649742826:android:7145c5298fe69968f58e93",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "206649742826-2jvnu36aes9e796j26rnvepadjujgkpf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgkAR7VMrHzEnUztDLekdqZY7jQzzK3WM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "206649742826-2jvnu36aes9e796j26rnvepadjujgkpf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

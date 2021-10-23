@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/androidbg"
+    tools:context=".Register">
+
+    <TextView
+        android:id="@+id/Authentifikasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Authentifikasi"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"
+        android:textColor="#FFFF00"
+        android:gravity="center"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="77dp" />
+
+    <TextView
+        android:id="@+id/Create"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Create new account"
+        android:textColor="@color/white"
+        android:layout_below="@+id/Authentifikasi"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <EditText
+        android:id="@+id/mName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:hint="FullName"
+        tools:ignore="MissingConstraints"
+        android:layout_below="@+id/Create"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="186dp" />
+
+    <EditText
+        android:id="@+id/mEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:hint="Email Adress"
+        android:layout_below="@+id/mName"
+        android:inputType="textEmailAddress"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintTop_toBottomOf="@+id/mName"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="186dp" />
+
+    <EditText
+        android:id="@+id/mPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_below="@+id/mEmail"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintTop_toBottomOf="@+id/mEmail"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="186dp" />
+
+    <EditText
+        android:id="@+id/mPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:hint="Phone"
+        android:layout_below="@+id/mPass"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintTop_toBottomOf="@+id/mPass"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="186dp" />
+
+    <Button
+        android:id="@+id/btRegist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mPhone"
+        android:layout_margin="100dp"
+        android:layout_marginTop="45dp"
+        android:text="Register"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="419dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mPhone"
+        tools:ignore="MissingConstraints" />
+
+</RelativeLayout>
